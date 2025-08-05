@@ -48,10 +48,12 @@ This is an open-source Windows tool that monitors [Cold Turkey](https://getcoldt
 ## 🛠️ Build From Source (Developer Install)
 
 **1. Clone this repo and install Python dependencies:**
-pip install pywin32 pyinstaller
-
+pip install pyinstaller
+pip install pywin32
 
 **2. Build the EXE with PyInstaller:**
+pyinstaller --onefile --noconsole --icon=icon.ico coldturkey_monitor.py
+
 - The output EXE will be in the `dist` directory.
 
 **3. First Run (as EXE, not from Python):**
