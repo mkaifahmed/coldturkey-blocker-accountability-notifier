@@ -6,8 +6,6 @@ This is an open-source Windows tool that monitors [Cold Turkey](https://getcoldt
 
 ## ✨ Features
 
-- **Automatic Cold Turkey Monitoring**  
-  Monitors the Cold Turkey `statsBlocked` database and detects every access attempt to a blocked site.
 
 - **Automatic Email Notifications**  
   Sends your accountability partner an instant email with the blocked domain and timestamp whenever a block event occurs.
@@ -15,8 +13,6 @@ This is an open-source Windows tool that monitors [Cold Turkey](https://getcoldt
 - **100% GUI First-Time Setup**  
   On first run, all credential prompts (Gmail, App Password, recipient email) are through friendly graphical dialogs—no command line needed, ever.
 
-- **Gmail App Password Helper**  
-  Explains the Google App Password process and automatically opens the App Passwords setup page for you.
 
 - **Runs Silently in Background**  
   After setup, the app runs without a console window (using PyInstaller `--noconsole`).
